@@ -1,9 +1,9 @@
 {% extends 'home.html' %}
 
 {% block content %}
-<form action="add" method='post'>
+<form action="sub" method='post'>
    {% csrf_token %}
-    <h1>Addition of Two numbers</h1>
+    <h1>Subtraction of Two numbers</h1>
         Enter 1st number : <input type="text" name="x1"><br>
         Enter 2nd number : <input type="text" name="x2"><br>
         <input type="submit">
